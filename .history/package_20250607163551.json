@@ -1,11 +1,11 @@
 {
-  "name": "goit-js-hw-12",
+  "name": "goit-js-hw-11",
   "private": true,
   "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/goit-js-hw-12/",
+    "build": "vite build --base=/goit-js-hw-11/",
     "preview": "vite preview",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
@@ -25,16 +25,5 @@
     "simplelightbox": "^2.14.3",
     "vite-plugin-full-reload": "^1.2.0",
     "vite-plugin-html-inject": "^1.1.2"
-  },
-  "description": "Bu proje Vite kullanılarak oluşturulmuştur. Ek özelliklerin tanınması ve özelleştirilmesi için [belgelere bakın](https://vitejs.dev/).",
-  "main": "vite.config.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/SvitSh/goit-js-hw-12.git"
-  },
-  "keywords": [],
-  "bugs": {
-    "url": "https://github.com/SvitSh/goit-js-hw-12/issues"
-  },
-  "homepage": "https://github.com/SvitSh/goit-js-hw-12#readme"
+  }
 }

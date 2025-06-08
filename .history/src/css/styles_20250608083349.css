@@ -3,9 +3,6 @@ body {
   margin: 0;
   padding: 20px;
 }
-.is-hidden {
-  display: none !important;
-}
 
 ol,
 ul {
