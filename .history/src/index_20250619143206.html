@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>Vanilla App Template</title>
+  </head>
+  <body>
+    <main>
+      <div>
+        <form class="form">
+          <label>
+            <input
+              type="text"
+              name="searchText"
+              placeholder="Search images..."
+              required
+            />
+          </label>
+          <button type="submit">Search</button>
+        </form>
+      </div>
+      <ul class="gallery"></ul>
+      <button type="button" class="hidden load_more">Load more</button>
+      <span class="loader"></span>
+    </main>
+
+    <script type="module" src="./main.js"></script>
+  </body>
+</html>
